@@ -1,5 +1,7 @@
-chrome.browserAction.onClicked.addListener(() => {
+// url: 'TemporaryEditor.html to base64'
+(chrome.browserAction.onClicked.addListener(() => {
     chrome.tabs.create({
-        url: 'TemporaryEditor.html'
+
+        url: `data:text/html;charset=utf-8;base64,PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+PG1ldGEgY2hhcnNldD0idXRmLTgiPjx0aXRsZT5UZW1wb3JhcnlFZGl0b3I8L3RpdGxlPjxzdHlsZT4qe21hcmdpbjowO3BhZGRpbmc6MDtib3gtc2l6aW5nOmJvcmRlci1ib3h9aHRtbHtoZWlnaHQ6MTAwJX1ib2R5e2hlaWdodDoxMDAlO2Rpc3BsYXk6ZmxleDtmbGV4LXdyYXA6d3JhcH10ZXh0YXJlYXtmbGV4OjE7aGVpZ2h0OjUwJTtwYWRkaW5nOjhweDtvdXRsaW5lOm5vbmU7Zm9udC1zaXplOjE0cHg7Ym9yZGVyOjFweCBzb2xpZCNDQ0NDQ0M7cmVzaXplOm5vbmV9aWZyYW1le3dpZHRoOjEwMCU7aGVpZ2h0OjUwJTtib3JkZXI6MXB4IHNvbGlkI0NDQ0NDQ308L3N0eWxlPjwvaGVhZD48Ym9keSBvbmlucHV0PSJpLnNyY2RvYz1oLnZhbHVlKyc8c3R5bGU+JytjLnZhbHVlKyc8L3N0eWxlPjxzY3JpcHQ+JytqLnZhbHVlKyc8L3NjcmlwdD4nIj48dGV4dGFyZWEgcGxhY2Vob2xkZXI9IkhUTUwiaWQ9ImgiPjwvdGV4dGFyZWE+PHRleHRhcmVhIHBsYWNlaG9sZGVyPSJDU1MiaWQ9ImMiPjwvdGV4dGFyZWE+PHRleHRhcmVhIHBsYWNlaG9sZGVyPSJKUyJpZD0iaiI+PC90ZXh0YXJlYT48aWZyYW1lIGlkPSJpIj48L2lmcmFtZT48L2JvZHk+PC9odG1sPg==`
     })
-})
+}))()
