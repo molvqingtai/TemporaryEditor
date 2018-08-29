@@ -1,0 +1,26 @@
+{
+    "name": "Temporary Editor",
+    "version": "1.0",
+    "author": "molvqingtai",
+    "description": "Temporary edit html/css/javaScript",
+    "homepage_url": "https://github.com/molvqingtai/chrome-extensions",
+    "manifest_version": 2,
+
+    "icons": {
+        "16": "icons/icon_16.png",
+        "48": "icons/icon_48.png",
+        "128": "icons/icon_128.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/icon_128.png",
+        "default_title": "Coding"
+    },
+    "background": {
+        "scripts": ["js/background.js"],
+        "run_at": "document_start",
+        "persistent": false
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
